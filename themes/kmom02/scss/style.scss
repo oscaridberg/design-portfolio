@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap');
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
-
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
 @import 'blockquotes';
 @import 'code';
+@import "header";
+@import "main";
+@import "footer";
 
 body {
     background-color: $background-color;

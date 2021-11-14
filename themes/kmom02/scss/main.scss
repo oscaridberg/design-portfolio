@@ -1,0 +1,40 @@
+// SCSS style for page main
+
+.main {
+    background-color: $background-alternative-color;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    filter: drop-shadow(0px 4px 2px #000);
+
+    h1 {
+        background-color: $secondary-color;
+        width: 100%;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        color: $font-alternative-color;
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    p {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    em {
+        text-align: center;
+        display: block;
+        padding: .5rem;
+    }
+    
+    img {
+        display: block;
+        width: 100%;
+        max-width: 729px;
+        justify-content: center;
+    }
+}

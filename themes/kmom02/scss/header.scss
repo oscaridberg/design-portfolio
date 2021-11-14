@@ -1,0 +1,31 @@
+// SCSS style for page header
+
+.header {
+    background-color: $base-color;
+    filter: drop-shadow(0px 4px 2px #000);
+    // display: flex;
+}
+
+.site-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'JetBrains Mono', monospace;
+
+}
+
+.title {
+    width: 60%;
+    padding-left: 1rem;
+
+    a {
+        color: $font-color;
+        text-decoration: none;
+    }
+}
+
+.logo {
+    img {
+        max-width: 100px;
+    }
+}
