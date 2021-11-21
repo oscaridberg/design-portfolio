@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+    .article-container {
+        grid-template-areas: 'article';
+    }
+
+    .article {
+        margin: auto;
+        margin-left: 1rem;
+    }
+    
+    .sidebar {
+        display: none;
+    }
+}

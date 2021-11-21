@@ -1,0 +1,8 @@
+// tech-media.scss
+@media (max-width: 767px) {
+    .landingpage {
+        a {
+            grid-column: span 3;
+        }
+    }
+}

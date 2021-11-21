@@ -6489,7 +6489,7 @@ pre code {
 
 .header {
   background-color: #fcdc00;
-  filter: drop-shadow(0px 4px 2px #000);
+  filter: drop-shadow(0 4px 2px #000);
 }
 
 .site-header {
@@ -6512,6 +6512,10 @@ pre code {
   max-width: 100px;
 }
 
+.nav {
+  font-family: "JetBrains Mono", monospace;
+}
+
 .main {
   background-color: #fff;
   display: flex;
@@ -6520,9 +6524,10 @@ pre code {
   align-items: center;
   margin: auto;
   margin-bottom: 1rem;
-  filter: drop-shadow(0px 4px 2px #000);
+  filter: drop-shadow(0 4px 2px #000);
 }
 .main h1 {
+  margin: 0;
   background-color: #ed107a;
   width: 100%;
   text-align: center;
@@ -6568,6 +6573,126 @@ pre code {
   text-decoration: none;
 }
 
+.techmain {
+  background-color: transparent;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  filter: drop-shadow(0 4px 2px #000);
+}
+.techmain h1 {
+  background-color: #ed107a;
+  width: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #fff;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.landingpage {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  gap: 2rem 2rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  font-family: "JetBrains Mono", monospace;
+}
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+.landingpage h2 {
+  background-color: #ed107a;
+  color: #fff;
+  padding: 1rem;
+  margin: 0;
+}
+.landingpage a {
+  background-color: #fff;
+  height: 16em;
+  grid-column: span 1;
+  text-decoration: none;
+}
+.landingpage a:last-child {
+  grid-column: span 3;
+  margin-bottom: 2rem;
+}
+.landingpage p {
+  margin: 1rem;
+}
+
+@media (max-width: 767px) {
+  .landingpage a {
+    grid-column: span 3;
+  }
+}
+.article-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: "sidebar article article";
+  max-width: 1200px;
+  margin: auto;
+  gap: 2rem 2rem;
+  font-family: "JetBrains Mono", monospace;
+  margin-bottom: 1rem;
+}
+
+.sidebar {
+  background-color: #fff;
+  margin-left: 1rem;
+}
+.sidebar h2 {
+  background-color: #ed107a;
+  margin: 0;
+  padding: 1rem;
+  color: #fff;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 1rem;
+}
+
+.sidebar li {
+  margin-bottom: 1rem;
+}
+.sidebar li a:hover {
+  color: #ed107a;
+}
+.sidebar li a:active {
+  color: #fcdc00;
+}
+
+.article {
+  background-color: #fff;
+}
+.article h1 {
+  background-color: #ed107a;
+  margin: 0;
+  padding: 1rem;
+  color: #fff;
+}
+.article p {
+  padding: 1rem;
+}
+.article pre {
+  margin: 1rem;
+}
+
+@media (max-width: 767px) {
+  .article-container {
+    grid-template-areas: "article";
+  }
+
+  .article {
+    margin: auto;
+    margin-left: 1rem;
+  }
+
+  .sidebar {
+    display: none;
+  }
+}
 body {
   background-color: #181a1b;
 }

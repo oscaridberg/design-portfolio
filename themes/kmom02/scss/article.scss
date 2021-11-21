@@ -1,0 +1,61 @@
+// article.scss
+
+.article-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: 'sidebar article article';
+    max-width: 1200px;
+    margin: auto;
+    gap: 2rem 2rem;
+    font-family: 'JetBrains Mono', monospace;
+    margin-bottom: 1rem;
+}
+
+.sidebar {
+    background-color: $background-alternative-color;
+    margin-left: 1rem;
+
+    h2 {
+        background-color: $secondary-color;
+        margin: 0;
+        padding: 1rem;
+        color: $font-alternative-color;
+    }
+
+    ul {
+        list-style: none;
+        padding: 1rem;
+    }
+}
+    
+.sidebar li {
+    margin-bottom: 1rem;
+
+    a:hover {
+        color: $secondary-color;
+    }
+
+    a:active {
+        color: $base-color;
+    }
+}
+
+
+.article {
+    background-color: $background-alternative-color;
+
+    h1 {
+        background-color: $secondary-color;
+        margin: 0;
+        padding: 1rem;
+        color: $font-alternative-color;
+    }
+
+    p {
+        padding: 1rem;
+    }
+
+    pre {
+        margin: 1rem;
+    }
+}
