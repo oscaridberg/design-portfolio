@@ -16,7 +16,7 @@
     margin-left: 1rem;
 
     h2 {
-        background-color: $secondary-color;
+        background-color: $accent-color;
         margin: 0;
         padding: 1rem;
         color: $font-alternative-color;
@@ -27,12 +27,12 @@
         padding: 1rem;
     }
 }
-    
+
 .sidebar li {
     margin-bottom: 1rem;
 
     a:hover {
-        color: $secondary-color;
+        color: $accent-color;
     }
 
     a:active {

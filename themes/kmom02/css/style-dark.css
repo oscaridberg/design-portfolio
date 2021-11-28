@@ -6473,7 +6473,7 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #fff;
+  background: #181a1b;
 }
 
 pre code {
@@ -6493,7 +6493,7 @@ pre code {
   }
 }
 .header {
-  background-color: #fcdc00;
+  background-color: #7d0941;
   filter: drop-shadow(0 4px 2px #000);
 }
 
@@ -6509,7 +6509,7 @@ pre code {
   padding-left: 1rem;
 }
 .title a {
-  color: #000;
+  color: #ededed;
   text-decoration: none;
 }
 
@@ -6522,7 +6522,7 @@ pre code {
 }
 
 .main {
-  background-color: #fff;
+  background-color: #181a1b;
   display: flex;
   flex-direction: column;
   max-width: 900px;
@@ -6533,12 +6533,12 @@ pre code {
 }
 .main h1 {
   margin: 0;
-  background-color: #ed107a;
+  background-color: #7d2e54;
   width: 100%;
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: #fff;
+  color: #ededed;
   font-family: "JetBrains Mono", monospace;
 }
 .main p {
@@ -6559,7 +6559,7 @@ pre code {
 }
 
 .footer {
-  background-color: #fcdc00;
+  background-color: #7d0941;
   height: 8rem;
   display: flex;
   justify-content: center;
@@ -6586,12 +6586,12 @@ pre code {
   filter: drop-shadow(0 4px 2px #000);
 }
 .techmain h1 {
-  background-color: #ed107a;
+  background-color: #7d2e54;
   width: 100%;
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: #fff;
+  color: #ededed;
   font-family: "JetBrains Mono", monospace;
 }
 
@@ -6608,13 +6608,13 @@ pre code {
   justify-self: center;
 }
 .landingpage h2 {
-  background-color: #12a4b0;
-  color: #fff;
+  background-color: #7d2e54;
+  color: #ededed;
   padding: 1rem;
   margin: 0;
 }
 .landingpage a {
-  background-color: #fff;
+  background-color: #181a1b;
   height: 16em;
   grid-column: span 1;
   text-decoration: none;
@@ -6644,14 +6644,14 @@ pre code {
 }
 
 .sidebar {
-  background-color: #fff;
+  background-color: #181a1b;
   margin-left: 1rem;
 }
 .sidebar h2 {
-  background-color: #12a4b0;
+  background-color: #7d2e54;
   margin: 0;
   padding: 1rem;
-  color: #fff;
+  color: #ededed;
 }
 .sidebar ul {
   list-style: none;
@@ -6662,20 +6662,20 @@ pre code {
   margin-bottom: 1rem;
 }
 .sidebar li a:hover {
-  color: #12a4b0;
+  color: #7d2e54;
 }
 .sidebar li a:active {
-  color: #fcdc00;
+  color: #7d0941;
 }
 
 .article {
-  background-color: #fff;
+  background-color: #181a1b;
 }
 .article h1 {
-  background-color: #ed107a;
+  background-color: #7d2e54;
   margin: 0;
   padding: 1rem;
-  color: #fff;
+  color: #ededed;
 }
 .article p {
   padding: 1rem;
@@ -6699,17 +6699,17 @@ pre code {
   }
 }
 body {
-  background-color: #181a1b;
+  background-color: #1c1c1c;
 }
 
 * {
-  color: #000;
+  color: #ededed;
 }
 
 .nav a {
-  color: #333;
+  color: #fff;
 }
 
 a:hover {
-  color: #12a4b0;
+  color: #7d2e54;
 }
