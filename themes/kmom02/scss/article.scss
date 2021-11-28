@@ -51,6 +51,14 @@
         color: $font-alternative-color;
     }
 
+    h2 {
+        padding: 1rem;
+    }
+
+    h3 {
+        padding: 1rem;
+    }
+
     p {
         padding: 1rem;
     }
@@ -58,4 +66,21 @@
     pre {
         margin: 1rem;
     }
+
+    table {
+        padding: 1rem;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        max-width: 729px;
+        justify-content: center;
+    }
+}
+
+.img-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }

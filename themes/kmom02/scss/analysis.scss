@@ -1,0 +1,56 @@
+// tech.scss
+.techmain {
+    background-color: transparent;
+    // max-width: 1200px;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    filter: drop-shadow(0 4px 2px #000);
+
+
+    h1 {
+        background-color: $secondary-color;
+        width: 100%;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        color: $font-alternative-color;
+        font-family: 'JetBrains Mono', monospace;
+    }
+}
+
+.analysis-landingpage {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    gap: 2rem 2rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    font-family: 'JetBrains Mono', monospace;
+
+
+    h1 {
+        grid-column: span 3;
+        justify-self: center;
+    }
+
+    h2 {
+        background-color: $accent-color;
+        color: $font-alternative-color;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    a {
+        background-color: $background-alternative-color;
+        height: 16em;
+        grid-column: span 1;
+        text-decoration: none;
+    }
+
+
+    p {
+        margin: 1rem;
+    }
+
+
+}
