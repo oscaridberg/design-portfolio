@@ -6705,6 +6705,17 @@ pre code {
   justify-content: center;
 }
 
+.excel-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.excel {
+  width: 95%;
+  height: 320px;
+}
+
 @media (max-width: 767px) {
   .article-container {
     grid-template-areas: "article";
@@ -6762,6 +6773,35 @@ pre code {
 }
 .analysis-landingpage p {
   margin: 1rem;
+}
+
+.gallerycontainer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem 1rem;
+  margin: 1rem;
+}
+
+@media (max-width: 668px) {
+  .gallerycontainer {
+    grid-template-columns: none;
+  }
+}
+.embed-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 body {
